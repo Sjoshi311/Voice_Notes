@@ -1,0 +1,133 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .voicenotes{
+            position: absolute;
+    top: 73px;
+    left: 81px;
+    display: inline-block;
+    width: 525px;
+    height: 138px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: bold;
+
+        }
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <p class="voicenotes">Voice notes</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form - MongoDB</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<div class="col-md-3">
+    <div class="pulsing-circle"></div>
+
+                <img src="imageremovebgpreview-1@2x.png" style="width: 276px;
+                height: 284px; margin-left: 105px; margin-top: 450px; z-index: 9999;" alt="img">
+            </div>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <h2 style="color: white; font-weight: bolder; font-size: 50px; margin-left: 330px; margin-top: -25px;">SignUp</h2>
+                    <div class="input-container"> <p class="text1">Name</p> 
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    </div><br>
+                    <div class="input-container"> <p class="text1">Email</p>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                    </div><br>
+                    <div class="input-container"> <p class="text1">Mobile Number</p>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required />
+                    </div><br>
+                    <div class="input-container"><p class="text1">Password</p>
+                    <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+                 </div>   <br>
+                    <input type="submit" value="Submit" id="submit" />
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form - MongoDB</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+            
+        <div class="row">
+            <div class="col-md-3">
+                <div class="pulsing-circle"></div>
+                <img style="width: 276px; height: 284px; margin-left: -155px; margin-top: 450px; z-index: 9999; " src="/imageremovebgpreview-1@2x.png" alt="img">
+      
+                <!-- Paste the pulsing-circle div here -->
+                
+            </div>
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <h2 style="color: #4876E6; font-family: monospace; font-weight: bolder; margin-top: 110px; margin-left: 250px; font-size: 50px;">SignUp</h2>
+                    <div class="input-container"> <p class="text1">Name</p> 
+                        <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    </div><br>
+                    <div class="input-container"> <p class="text1">Email</p>
+                        <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                    </div><br>
+                    <div class="input-container"> <p class="text1">Mobile Number</p>
+                        <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required />
+                    </div><br>
+                    <div class="input-container"><p class="text1">Password</p>
+                        <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+                    </div>   <br>
+                   
+                    <input class="creatacc" type="submit" value="Submit" id="submit" />
+                </form>
+                <div class="already-acc"><a href="http://localhost:3000/login1">Already have an account? Login</a></div>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+    <!-- Add the style tag with the voicenotes class -->
+    <style>
+        .voicenotes {
+            position: absolute;
+            top: 73px;
+            left: 81px;
+            display: inline-block;
+            width: 525px;
+            height: 138px;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 70px;
+            font-weight: bold;
+        }
+    </style>
+    <!-- Add the voice-notes p tag after the head tag -->
+    <p class="voicenotes">Voice notes</p>
+</body>
+</html>

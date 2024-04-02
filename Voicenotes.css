@@ -1,0 +1,123 @@
+.voicenotes {
+  position: absolute;
+  top: calc(50% - 59.5px);
+  left: 0;
+}
+body {
+  background-color: #000;
+}
+.component-2-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-royalblue);
+}
+.component-2 {
+  position: absolute;
+  height: calc(100% - 24px);
+  top: 12px;
+  right: 0;
+  bottom: 12px;
+  width: 8px;
+}
+.component-5 {
+  position: absolute;
+  top: 222px;
+  left: 742px;
+  width: 73px;
+  height: 119px;
+  overflow: hidden;
+  color: var(--color-royalblue);
+}
+.create-your {
+  position: absolute;
+  top: 225px;
+  left: 80px;
+  width: 639px;
+  height: 113px;
+  display: inline;
+  margin-right: 10px;
+}
+.group-child3,
+.group-child4 {
+  position: absolute;
+  top: 0;
+  left: 543px;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-royalblue);
+  width: 330px;
+  height: 120px;
+  cursor: pointer;
+}
+.group-child4 {
+  left: 0;
+}
+.login,
+.signup2 {
+  position: absolute;
+  top: 20px;
+  left: 63px;
+}
+.signup2 {
+  left: 586px;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 691px;
+  left: 564px;
+  width: 873px;
+  height: 120px;
+  font-size: var(--font-size-51xl);
+}
+.voicenotes2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 996px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-white);
+  font-family: var(--font-sometype-mono);
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+}
+
+.typewriter-text {
+  margin-left: 630px;
+  position: absolute;
+  top: 225px;
+  left: 130px;
+  color: #4169E1;
+  display: inline;
+}
+
+.typewriter-text:after {
+  content: "|";
+  animation: typewriterCursorBlink 1s infinite;
+}
+
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 30px;
+  background-color: #000;
+  animation: typewriterCursorBlink 1s infinite;
+}
+
+@keyframes typewriterCursorBlink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}

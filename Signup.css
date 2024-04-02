@@ -1,0 +1,247 @@
+.signup1-child,
+.signup1-item {
+  position: absolute;
+  top: 384px;
+  left: 169px;
+  width: 222.4px;
+  height: 219px;
+}
+body {
+  background-color: #000;
+}
+.signup1-item {
+  top: 119px;
+  left: 756px;
+  border-radius: var(--br-77xl);
+  background-color: var(--color-darkslategray);
+  width: 604px;
+  height: 785px;
+  padding: 20px;
+}
+.signup,
+.voice-notes1 {
+  position: absolute;
+  top: 73px;
+  left: 81px;
+  display: inline-block;
+  width: 525px;
+  height: 138px;
+}
+.signup {
+  top: 138px;
+  left: 904px;
+  color: var(--color-royalblue);
+  width: 373px;
+  height: 110px;
+}
+.image-removebg-preview-1-icon {
+  position: absolute;
+  top: 362px;
+  left: 142px;
+  width: 276px;
+  height: 284px;
+  object-fit: cover;
+}
+.or {
+  position: absolute;
+  top: 70%;
+  left: 278px;
+  font-size: 15px;
+  width: 250px;
+  height: 36px;
+  margin-top: 140px;
+}
+.subtract-icon {
+  position: relative;
+  width: 473px;
+  height: 1px;
+}
+.group-child,
+.or-parent {
+  position: absolute;
+  width: 473px;
+}
+.or-parent {
+  top: 340px;
+  left: 16px;
+  height: 36px;
+  font-size: var(--font-size-11xl);
+}
+.group-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-lavender-200);
+  height: 68.7px;
+}
+.password {
+  position: absolute;
+  top: 22.5px;
+  left: 62.4px;
+  display: inline-block;
+  width: 75.4px;
+  height: 23.8px;
+}
+.frame-icon {
+  position: absolute;
+  top: 18.5px;
+  left: 23.4px;
+  width: 31.2px;
+  height: 31.7px;
+  overflow: hidden;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 92.4px;
+  left: 5px;
+  width: 473px;
+  height: 68.7px;
+  color: var(--color-gray);
+}
+.confirm-password {
+  position: absolute;
+  top: 22px;
+  left: 62px;
+  display: inline-block;
+  width: 126px;
+  height: 24px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 183px;
+  left: 0;
+  width: 473px;
+  height: 68.7px;
+  color: var(--color-gray);
+}
+.username {
+  position: absolute;
+  top: 22.4px;
+  left: 62.4px;
+  display: inline-block;
+  width: 80.6px;
+  height: 23.8px;
+}
+.group-child1,
+.rectangle-container {
+  position: absolute;
+  top: 0;
+  height: 68.7px;
+}
+.rectangle-container {
+  left: 5px;
+  width: 473px;
+  color: var(--color-gray);
+}
+.group-child1 {
+  left: 0;
+  border-radius: var(--br-base);
+  background: linear-gradient(100.33deg, #0047ff, #7692db);
+  box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+  width: 161.1px;
+  margin-top: 130px;
+}
+.create-account {
+  position: absolute;
+  top: 22px;
+  left: 9px;
+  display: inline-block;
+  width: 190px;
+  height: 24px;
+  margin-top: 130px;
+}
+.group-child2,
+.group-div {
+  position: absolute;
+  height: 68.7px;
+}
+.group-div {
+  top: 269px;
+  left: 165px;
+  width: 199px;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+}
+.group-child2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  border: 1px solid var(--color-lavender-100);
+  box-sizing: border-box;
+  width: 473px;
+}
+.sign-in-with-google {
+  position: absolute;
+  top: 7.5px;
+  left: 49.1px;
+  display: inline-block;
+  width: 252px;
+  height: 24px;
+}
+.google-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39px;
+  height: 39.6px;
+  object-fit: cover;
+}
+.sign-in-with-google-parent {
+  position: absolute;
+  top: 14px;
+  left: 119px;
+  width: 301.1px;
+  height: 39.6px;
+}
+.group-parent,
+.group-wrapper,
+.rectangle-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 473px;
+  height: 68.7px;
+}
+.group-parent,
+.group-wrapper {
+  top: 429px;
+  left: 6px;
+  font-size: var(--font-size-xl);
+}
+.group-parent {
+  top: 288px;
+  left: 827px;
+  width: 489px;
+  height: 497.7px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-poppins);
+}
+.signup1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 996px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
+  font-family: var(--font-sometype-mono);
+}
+
+
+.input-containers {
+  margin-bottom: 80px;
+}
+
+.input-containers input {
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(48, 54, 54);
+  border: 1px solid rgb(48, 54, 54);
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-containers input:focus {
+  border-color: #007bff; /* Change to your desired focus color */
+}
